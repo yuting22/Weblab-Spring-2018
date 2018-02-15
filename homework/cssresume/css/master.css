@@ -1,0 +1,53 @@
+
+#name{
+  color:red;
+  font-size: 40px;
+  font-family: 'Kavivanar', cursive;
+  text-align: center;
+  letter-spacing: 10px
+}
+
+#info{
+ text-align: center;
+}
+#email{
+  text-align: center;
+}
+a{
+  color:pink;
+  text-decoration: none;
+}
+a:hover{
+  color:red;
+  text-decoration: underline;
+}
+p:hover{
+  background:lightblue;
+  }
+
+p{
+    background: orange;
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  ul{
+      background: orange;
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+
+
+#email{
+  color: pink;
+}
+
+.heading{
+  color: brown;
+  margin: inherit;
+}
+
+.work {
+  background: orange;
+}
