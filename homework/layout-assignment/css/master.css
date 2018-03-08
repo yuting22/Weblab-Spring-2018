@@ -1,0 +1,177 @@
+.main-head{
+  grid-area: header;
+  color:black;
+font-family: 'Indie Flower', cursive;
+}
+
+.main-nav {
+  grid-area: nav;
+  text-align:right;
+  margin: 20px;
+  text-decoration:none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+#name {
+  color: SeaGreen;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 10px;
+  background-repeat: no-repeat;
+  background-image: url(../images/burgeragain.jpg);
+  background-size: contain;
+  padding: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+  font-size: 100px;
+}
+
+.column {
+  max-width: 100%;
+}
+
+P {
+  font-size:40px;
+  leter-spacing:5px;
+  text-align:center;
+  margin-top: 20px;
+  color:gold;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+article {
+  color:GoldenRod;
+  font-size: 20px;
+}
+
+h2 {
+  color:orange;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-align: center;
+}
+
+h2:hover{
+  color:pink;
+  background: white;
+}
+
+footer{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+.health {
+  display:grid;
+  grid-gap:10px;
+  grid-auto-rows:450px;
+  grid-template-columns: 200px 1fr;
+  background:pink;
+  background-image: url(../images/health.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+  height: 350px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.fast {
+  display:grid;
+  grid-gap:10px;
+  grid-auto-rows:450px;
+  grid-template-columns: 200px 1fr;
+  background:pink;
+  background-image: url(../images/burgerbuger.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  float: left;
+  height: 350px;
+  border-radius: 10%;
+
+
+}
+
+.left {
+  background:pink;
+  background-image: url(../images/innout.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  float: left;
+  height: 500px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.right {
+  background:pink;
+  background-image: url(../images/shakeshack.webp);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  float: left;
+  height: 500px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+
+
+.LEFT {
+  background:pink;
+  background-image: url(../images/pasta.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  float: left;
+  height: 500px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.RIGHT {
+  background:pink;
+  background-image: url(../images/fruit.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  float: left;
+  height: 500px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+
+.nav-home {
+  background: gold;
+}
+
+.nav-comp{
+  background:gold;
+}
+
+.nav-stores{
+  background:gold;
+}
+
+.nav-link {
+  display: block;
+}
+
+@media (min-width: 500px) {
+  .nav-link {
+    display: inline;
+  }
+
+  #name {
+    background-size: cover;
+    padding: 200px;
+  }
+}

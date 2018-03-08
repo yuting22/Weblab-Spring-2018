@@ -1,0 +1,44 @@
+.content {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header"
+    "nav"
+    "row"
+    "content"
+    "left"
+    "right";
+}
+
+
+/* tablet layout */
+
+@media (min-width: 500px) {
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0fr;
+  grid-template-areas:
+    "header"
+    "nav"
+    "row"
+    "content"
+    "left"
+    "right";
+}
+
+
+/* Desktop layout */
+
+@media (min-width: 700px) {
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "content content"
+    "left right"
+    "LEFT RIGHT"
+    "footer footer"
+ }
