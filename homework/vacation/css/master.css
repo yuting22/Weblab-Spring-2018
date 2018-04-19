@@ -227,30 +227,65 @@ p{
 	padding: 0 0 5px 0;
 }
 
-#section1{
-  background-size: cover;
-  background-image: url(../images/forbidden.jpg);
+#section1 {
+  background: url('../images/forbidden.jpg');
+  background-size: cover; 
+
 }
 
 #section2{
-  background-size: cover;
-  background-image: url(../images/greatwall.jpg);
-  padding: 6% 0 0 0;
+  background-size: cover;
+  background-image: url('../images/greatwall.jpg');
+  padding: 6% 0 0 0;
 }
 
 #section3{
-  background-size: cover;
-  background-image: url(../images/summer.jpg);
-  padding: 6% 0 0 0;
+  background-size: cover;
+  background-image: url('../images/summer.jpg');
+  padding: 6% 0 0 0;
 }
 
 #section4 {
-  background-size: cover;
-  background-image: url(../images/tiantan.jpg);
-  padding: 6% 0 0 0;
+  background-size: cover;
+  background-image: url('../images/tiantan.jpg');
+  padding: 6% 0 0 0;
 }
 
 #section5 {
-  background-size: cover;
-  background-image: url(../images/building.jpg);
+  background-size: cover;
+  background-image: url('../images/building.jpg');
+  padding: 6% 0 0 0;
+}
+
+#section1{
+  color:darkred;
+  font-size: 20px;
+}
+
+#section1 h1 {
+  color: black;
+}
+
+#section2{
+  color:darkgreen;
+}
+
+#section2 h1 {
+  color: black;
+}
+
+#section3{
+  color:GoldenRod;
+}
+
+#section3 h1 {
+  color: seagreen;
+}
+
+#section4{
+  color:gold;
+}
+
+#section4 h1 {
+  color: gold;
 }
