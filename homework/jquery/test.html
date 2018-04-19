@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Life circle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <h1 id="title">Life Circle</h1>
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <hr>
+
+    <div class="box story">
+      Finally come to this world!
+
+    </div>
+    <div class="photo">
+      <img src="images/1.jpg" alt="life cycle" id="life">
+      <h3 id="caption">After 10 months' wait, mummy finally let us out to say hello to the world.<br>
+         Everything's fresh for us. <br>
+         We gonna enjoy the world. <br>
+         We gonna start our lives now!</h3>
+    </div>
+
+    <div class="center">
+      <a href="#" id="step1">First Challenge</a>
+      <a href="#" id="step2">Second Challenge</a>
+      <a href="#" id="step3">Third Challenge</a>
+      <a href="#" id="step4">Fourth Challenge</a>
+      <a href="#" id="step5">Fifth Challenge</a>
+      <a href="#" id="step6">Sixth Challenge</a>
+      <a href="#" id="step7">Seventh Challenge</a>
+      <a href="#" id="step8">Eighth Challenge</a>
+      <a href="#" id="step9">Nineth Challenge</a>
+      <a href="#" id="step10">The END</a>
+    </div>
+
+    <script type="text/javascript">
+
+    $("#step1").click(function(){
+      //jquery here
+      $("#title").html("Life Circle")
+      $("#step1").hide();
+      $("#step2").show();
+      $("#life").attr("src", "images/2.jpg");
+      $(".box").html('Time to go school!')
+      $("#caption").html("Study!Study!Study! <br> That's the first 20 years of my life! ");
+    });
+
+    $("#step2"). click(function(){
+      $("#step2").hide();
+      $("#step3").show();
+      $("#life").attr("src", "images/3.jpg");
+      $(".box").html("Start working now!");
+      $("#caption").html("Study life changing to Working life now. <br> I'm not a student anymore. <br> It's a big change!");
+      //jquery here
+    });
+
+    $("#step3"). click(function(){
+      $("#step3").hide();
+      $("#step4").show();
+      $("#life").attr("src", "images/4.jpg");
+      $(".box").html("Find a right person!");
+      $("#caption").html("I find someone as important as my parents. <br> And we will become family!");
+
+      //jquery here
+    });
+
+    $("#step4"). click(function(){
+      $("#step4").hide();
+      $("#step5").show();
+      $("#life").attr("src", "images/5.jpg");
+      $(".box").html("Happiness life, just you and me~");
+      $("#caption").html("Marriage = happiness! <br> You and me = family!");
+      //jquery here
+    });
+
+    $("#step5"). click(function(){
+      $("#step5").hide();
+      $("#step6").show();
+      $("#life").attr("src", "images/6.jpg");
+      $(".box").html("A baby!");
+      $("#caption").html("Life changes! <br> 1+1>2! <br> We gonna be parents!");
+      //jquery here
+    });
+
+    $("#step6"). click(function(){
+      $("#step6").hide();
+      $("#step7").show();
+      $("#life").attr("src", "images/7.jpg");
+      $(".box").html("New responsibility!");
+      $("#caption").html("We need take good care of our little child! <br> We need to watch him grow up, <br> and then go to school, <br> and then find his love, <br> and have his own baby!");
+      //jquery here
+    });
+
+    $("#step7"). click(function(){
+      $("#step7").hide();
+      $("#step8").show();
+      $("#life").attr("src", "images/8.jpg");
+      $(".box").html("My baby's getting bigger~");
+      $("#caption").html("My child, he's growing up. <br> He may feel I'm annoying, because i always ask him to do something he doesn't really want to do. <br> But i love him. <br> And I will be the one love him the most! ");
+      //jquery here
+    });
+
+    $("#step8"). click(function(){
+      $("#step8").hide();
+      $("#step9").show();
+      $("#life").attr("src", "images/9.jpg");
+      $(".box").html("My baby has his own life~");
+      $("#caption").html("My baby's going to college. <br> I'm proud of him. <br> And I will miss him so much! <br> My baby! Don't worry about us, we will take care of ourselves! <br>We want you to achieve your dreams!");
+      //jquery here
+    });
+
+    $("#step9"). click(function(){
+      $("#step9").hide();
+      $("#step10").show();
+      $("#life").attr("src", "images/10.jpg");
+      $(".box").html("Goodbye World!");
+      $("#caption").html("My life's too short. <br> I haven't travelled around the world yet. <br> I haven't seen my grandson yet! <br> I haven't done so many things. <br> My life's also long. I miss my parents so much. <br> I'm going to find them now! <br> BYE BYE WORLD. <br> I'm happy I'm here!");
+      //jquery here
+    });
+
+    $("step10").click(function(){
+//jquery here
+});
+</script>
+
+  </body>
+</html>

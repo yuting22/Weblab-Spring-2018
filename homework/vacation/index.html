@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>vacation</title>
+     <link rel="stylesheet" type="text/css" href="pp/jquery.pagepiling.css" /> -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="pp/jquery.pagepiling.js"></script> -->
+ <script type="text/javascript">
+  <link rel="stylesheet" href="css/master.css">
+
+
+      $(document).ready(function() {
+      // $('#pagepiling').pagepiling({
+      //     navigation: true,
+      //     anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
+      //     menu: '#menu'
+      //   });
+      // });
+
+      $('#pagepiling').pagepiling({
+          menu: '#menu',
+          anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+          sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+          navigation: {
+            'position': 'right',
+            'tooltips': ['PIER', 'LACMA', 'HOLLYWOOD', 'VENICE', 'PCH']
+          },
+          afterRender: function(){
+            $('#pp-nav').addClass('custom');
+          },
+          afterLoad: function(anchorLink, index){
+            if(index>1){
+              $('#pp-nav').removeClass('custom');
+            }else{
+              $('#pp-nav').addClass('custom');
+            }
+          }
+        });
+        });
+        </script>
+  </head>
+
+  <body>
+
+    <ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="page1">FORBIDDEN CITY</a></li>
+    <li data-menuanchor="page2"><a href="#page2">GREATWALLS</a></li>
+    <li data-menuanchor="page3"><a href="#page3">SUMMER PALACE</a></li>
+    <li data-menuanchor="page4"><a href="#page4">TEMPLE OF HEAVEN</a></li>
+        <li data-menuanchor="page5"><a href="#page5">TV TOWER</a></li>
+    </ul>
+
+    <div id="pagepiling">
+    <div class="section" id="section1">
+        <div class="FORBIDDEN CITY">
+          <h1>FORBIDDEN CITY</h1>
+          <p>The place for two dynasties </p>
+        </div>
+      </div>
+    <div class="section" id="section2">
+        <div class="GREATWALLS">
+          <h1>GREATWALLS</h1>
+          <p>Eight Wonders of the World</p>
+        </div>
+      </div>
+    <div class="section" id="section3">
+        <div class="SUMMER PALACE">
+          <h1>SUMMER PALACE</h1>
+          <p> Include in the World Heritage List</p>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="TEMPLE OF HEAVEN">
+          <h1>TEMPLE OF HEAVEN</h1>
+          <p>One of the most imperial complex religious buildings </p>
+        </div>
+      </div>
+      <div class="section" id="section5">
+        <div class="TV TOWER">
+          <h1>TV TOWER</h1>
+          <p>Great place to see the night view of Beijing</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

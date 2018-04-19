@@ -1,0 +1,47 @@
+#step2, #step3, #step4, #step5, #step6, #step7, #step8, #step9, #step10{
+  display: none;
+
+}
+
+#title{
+  text-align:center;
+  color:gray;
+  font-family: 'Great Vibes', cursive;
+  font-size:60px;
+  letter-spacing:3px;
+}
+
+.box{
+  margin-top: 10px;
+  text-align: center;
+  color:hotpink;
+  font-size: 35px;
+  font-family: 'Poor Story', cursive;
+  background: lightpink;
+}
+
+
+.photo{
+  text-align:center;
+
+  background:lightpink;
+}
+
+#step1, #step2, #step3, #step4, #step5, #step6, #step7, #step8, #step9, #step10{
+  margin-top: 10px;
+  color:PaleVioletRed;
+
+  font-size: 30px;
+  width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#caption{
+  font-size:20px;
+  font-family: 'Poor Story', cursive;
+  color:floralwhite;
+}
